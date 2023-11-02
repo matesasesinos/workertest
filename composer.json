@@ -1,0 +1,19 @@
+{
+    "name": "ma/worker",
+    "description": "Worker for Minimalart",
+    "autoload": {
+        "psr-4": {
+            "Ma\\Worker\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Juan Iriart",
+            "email": "juan.iriart@minimalart.co"
+        }
+    ],
+    "require": {
+        "php-di/php-di": "^7.0",
+        "symfony/dotenv": "^6.3"
+    }
+}
